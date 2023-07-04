@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+}
+h2 {
+  margin-top: 0;
+}
+.logo {
+  display: inline-block;
+}
+.resim {
+  width: 45px;
+  margin-left: 24px;
+  margin-top: 9px;
+}
+.Search {
+  position: absolute;
+  top: 12px;
+  left: 100px;
+  padding: 15px;
+  width: 200px;
+  height: 10px;
+  border: 0px solid rgb(211, 211, 211);
+  border-radius: 30px;
+  background-color: rgba(242, 242, 242, 0.555);
+}
+
+.box {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  width: calc(100% - 80px);
+  text-align: right;
+}
+.nav_link {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  padding: 0 15px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  margin: 0;
+}
+.nav_link1 {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+  padding: 0 0 8px 4px;
+  position: relative;
+  left: 5px;
+  top: -5px;
+}
+/* içerik kısmına geçiyoruz */
+.minik-nav {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.mini-nav-cont {
+  text-decoration: none;
+  padding: 8px;
+  color: gray;
+}
+.fl {
+  float: left;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.contents1 {
+  height: 1500px;
+  width: 675px;
+  margin-right: 50px;
+  margin-left: 390px;
+}
+.contents2 {
+  height: 1250px;
+  width: 400px;
+  border-left: 1px solid gray;
+  position: absolute;
+  right: 350px;
+  top: 67px;
+}
+.makalecard {
+  height: 200px;
+}
+.picture {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.dox {
+  display: inline-block;
+}
+.pictures {
+  width: 112px;
+  height: 112px;
+  float: right;
+}
+.maka {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+.button {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.right-paper {
+  margin-left: 30px;
+}
+.picture-paper {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: inline-block;
+}
+.paper-name {
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  bottom: 10px;
+}
+.mrg {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.pcr {
+  width: 40px;
+}
+.p-btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid gray;
+  background-color: white;
+}
+.p-btn:hover {
+  border: 1px solid black;
+}
+.rt-bt {
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  background-color: rgb(225, 225, 225);
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+.rt-bt:hover {
+  background-color: rgb(204, 202, 202);
+}
+.flw-btn {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  padding: 8px;
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  top: 1px;
+}
